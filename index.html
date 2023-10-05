@@ -7,6 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <style>
+        .red {
+            color: red;
+            font-family: BebasNeue;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,26 +21,55 @@
             <nav class="d-flex flex-column">
                 <img class="logo mx-3 mt-5" src="./assets/img/logo.png" alt="logo">
                 <ul class="d-flex flex-column">
-                    <li class="a yellow fuente mt-5">Inicio</li>
+                    <li class="mt-5"><a class="a yellow fuente" href="./pages/Crear-cuenta.html">Crear usuario</a></li>
+                    <li class="a yellow fuente mt-3">Inicio</li>
                     <li class="a yellow fuente mt-3">Catalogo</li>
                 </ul>
             </nav>
         </header>
-        <main class="bg-main col-10 vh-100 w-100">
+        <main class="bg-main col-10 w-100">
             <h1 class="size-h1 fuente d-flex justify-content-center pt-5 yellow offset-3">Play-House</h1>
             <div class="mt-4 d-flex justify-content-center offset-3">
                 <img class="mando me-5 mandos" src="./assets/img/mando.png" alt="">
                 <h2 class="size-h2 yellow fuente d-flex justify-content-center">¿Quienes somos?</h2>
                 <img class="mando mx-5 mandos mandos-2" src="./assets/img/mando.png" alt="">
             </div>
-            <p class="size-p yellow fuente mt-5 d-flex justify-content-center offset-3">Bienvenido a Play House. En este sitio
+            <p class="size-p yellow fuente mt-5 d-flex justify-content-center offset-3">Bienvenido a Play House. En este
+                sitio
                 vas
                 poder
                 encotrar todos los productos de sony, al mejor precio</p>
+
+            <h2 class="size-h2 yellow fuente d-flex justify-content-center offset-3 mb-5">Productos</h2>
+            <div class="d-flex offset-3 mt-5 mb-4">
+                <div class="d-flex flex-column justify-content-center me-5">
+                    <h3 id="ps5" class="yellow fuente d-flex justify-content-center">Playstation 5</h3>
+                    <img class="productos-ps" src="./assets/img/PS5.png" alt="">
+                    <input id="comprar1" class="boton-comprar offset-3 mt-3" type="button" value="Comprar">
+                </div>
+                <div class="d-flex flex-column justify-content-center offset-4">
+                    <h3 id="dual" class="yellow fuente d-flex justify-content-center">Dualsense Edge</h3>
+                    <img class="productos-dual" src="./assets/img/dualsense.png" alt="">
+                    <input id="comprar2" class="boton-comprar offset-3 mt-3" type="button" value="Comprar">
+                </div>
+            </div>
+            <div class="d-flex offset-3">
+                <div class="d-flex flex-column justify-content-center me-5">
+                    <h3 id="auri" class="yellow fuente d-flex justify-content-center">Auriculares Pulse 3D</h3>
+                    <img class="productos-auri" src="./assets/img/auris.jpg" alt="">
+                    <input id="comprar3" class="boton-comprar offset-3 mt-3" type="button" value="Comprar">
+                </div>
+                <div class="d-flex flex-column justify-content-center offset-2">
+                    <h3 id="psvr" class="yellow fuente d-flex justify-content-center">Playstation VR2</h3>
+                    <img class="productos-vr" src="./assets/img/vr.jpg" alt="">
+                    <input id="comprar4" class="boton-comprar mt-3" type="button" value="Comprar">
+                </div>
+            </div>
         </main>
     </div>
     <footer class="footer vh-100">
-        <p class="offset-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum iste soluta odio nisi, voluptatum tempore
+        <p class="offset-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum iste soluta odio nisi,
+            voluptatum tempore
             exercitationem tenetur sunt iure fugiat dolore fugit itaque temporibus impedit repudiandae doloribus.
             Libero, esse unde?</p>
     </footer>

@@ -54,6 +54,34 @@
     height: 50px;
     width: 70px;
 }
+.productos{
+    margin-left: 500px;
+}
+
+.productos-ps {
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+.productos-dual {
+    border-radius: 10px;
+    height: 150px;
+    width: 350px;
+}
+.productos-auri {
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+}
+.productos-vr{
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+}
+.boton-comprar{
+    width: 150px;
+}
+
 
 @keyframes mandos {
     0% {
