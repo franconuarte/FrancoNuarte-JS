@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <style>
-        .red {
-            color: red;
+        .agregado {
+            color: black;
             font-family: BebasNeue;
+            font-size: 1.5rem;
+        }
+
+        .lista {
+            color: yellow;
+            margin-left: 250px;
         }
     </style>
 </head>
@@ -21,7 +27,6 @@
             <nav class="d-flex flex-column">
                 <img class="logo mx-3 mt-5" src="./assets/img/logo.png" alt="logo">
                 <ul class="d-flex flex-column">
-                    <li class="mt-5"><a class="a yellow fuente" href="./pages/Crear-cuenta.html">Crear usuario</a></li>
                     <li class="a yellow fuente mt-3">Inicio</li>
                     <li class="a yellow fuente mt-3">Catalogo</li>
                 </ul>
@@ -43,28 +48,43 @@
             <h2 class="size-h2 yellow fuente d-flex justify-content-center offset-3 mb-5">Productos</h2>
             <div class="d-flex offset-3 mt-5 mb-4">
                 <div class="d-flex flex-column justify-content-center me-5">
-                    <h3 id="ps5" class="yellow fuente d-flex justify-content-center">Playstation 5</h3>
+                    <h3 class="yellow fuente d-flex justify-content-center">Playstation 5</h3>
                     <img class="productos-ps" src="./assets/img/PS5.png" alt="">
+                    <p id="ps5"></p>
                     <input id="comprar1" class="boton-comprar offset-3 mt-3" type="button" value="Comprar">
                 </div>
                 <div class="d-flex flex-column justify-content-center offset-4">
-                    <h3 id="dual" class="yellow fuente d-flex justify-content-center">Dualsense Edge</h3>
+                    <h3 class="yellow fuente d-flex justify-content-center">Dualsense Edge</h3>
                     <img class="productos-dual" src="./assets/img/dualsense.png" alt="">
+                    <p id="dual"></p>
                     <input id="comprar2" class="boton-comprar offset-3 mt-3" type="button" value="Comprar">
                 </div>
             </div>
             <div class="d-flex offset-3">
                 <div class="d-flex flex-column justify-content-center me-5">
-                    <h3 id="auri" class="yellow fuente d-flex justify-content-center">Auriculares Pulse 3D</h3>
+                    <h3 class="yellow fuente d-flex justify-content-center">Auriculares Pulse 3D</h3>
                     <img class="productos-auri" src="./assets/img/auris.jpg" alt="">
+                    <p id="auri"></p>
                     <input id="comprar3" class="boton-comprar offset-3 mt-3" type="button" value="Comprar">
                 </div>
                 <div class="d-flex flex-column justify-content-center offset-2">
-                    <h3 id="psvr" class="yellow fuente d-flex justify-content-center">Playstation VR2</h3>
+                    <h3 class="yellow fuente d-flex justify-content-center">Playstation VR2</h3>
                     <img class="productos-vr" src="./assets/img/vr.jpg" alt="">
+                    <p id="psvr"></p>
                     <input id="comprar4" class="boton-comprar mt-3" type="button" value="Comprar">
                 </div>
             </div>
+            <br><br><br>
+            <div class="d-flex">
+                <button id="btn" class="size-h2 fuente d-flex justify-content-start offset-3 mt-5 me-5">Ver mi
+                    carrito</button>
+                <button id="btn2" class="size-h2 fuente mt-5">Ver mi carrito
+                    anterior</button>
+            </div>
+            <section id="data" class="d-flex justify-content-center">
+            </section>
+
+
         </main>
     </div>
     <footer class="footer vh-100">
