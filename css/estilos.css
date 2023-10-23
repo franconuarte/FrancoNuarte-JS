@@ -110,7 +110,16 @@
     animation-delay: 0.2s;
 }
 
+.boton {
+    width: 200px;
+}
+
+.boton2 {
+    width: 300px;
+}
+
 
 .footer {
+    height: 50px;
     background-color: rgb(5, 23, 38);
 }
